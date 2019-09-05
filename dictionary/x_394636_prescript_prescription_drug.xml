@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Prescription_Drug" max_length="40" name="x_394636_prescript_prescription_drug" type="collection">
+        <element label="New Data Structure" max_length="800" name="u_data_structure_16" type="data_structure"/>
+        <element label="Drug 1" max_length="4000" name="u_drug_1" type="simple_name_values"/>
+        <element label="Drug 2" max_length="4000" name="u_drug_2" type="simple_name_values"/>
+        <element label="Drug 3" max_length="4000" name="u_drug_3" type="simple_name_values"/>
+        <element label="Drug 4" max_length="4000" name="u_drug_4" type="simple_name_values"/>
+        <element label="Drug 5" max_length="4000" name="u_drug_5" type="simple_name_values"/>
+        <element attributes="base_start=true" label="Expense" max_length="80" name="u_expense" type="table_name"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_18" type="glide_list"/>
+        <element label="Group No" max_length="40" name="u_group_no" type="integer"/>
+        <element label="Is this an on-site nursing home pharmacy?" max_length="40" name="u_is_nursing_home_phar" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Member ID" max_length="40" name="u_member_id" type="string"/>
+        <element label="Member Name" max_length="32" name="u_member_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_member_phone_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_patient_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Date of Birth" max_length="40" name="u_patient_date_birth" type="glide_date"/>
+        <element label="Patient Name" max_length="32" name="u_patient_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" max_length="40" name="u_payment_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Credit Card" sequence="0" value="credit card"/>
+                <element inactive_on_update="false" label="Cash" sequence="1" value="cash"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name of Pharmacy" max_length="100" name="u_phamarcy_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address of the Pharmacy" max_length="40" name="u_pharmacy_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" mandatory="true" max_length="20" name="u_reimbursement_amount" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="self" label="Relationship to Plan Member" max_length="40" name="u_rel_member" type="string">
+            <choice>
+                <element inactive_on_update="false" label="self" sequence="0" value="self"/>
+                <element inactive_on_update="false" label="spouse" sequence="1" value="spouse"/>
+                <element inactive_on_update="false" label="Eligible Child" sequence="2" value="eligible child"/>
+                <element inactive_on_update="false" label="Dependent Student" sequence="3" value="dependent student"/>
+                <element inactive_on_update="false" label="Disabled Dependent" sequence="4" value="disabled dependent"/>
+                <element inactive_on_update="false" label="Dependent Parent" sequence="5" value="dependent parent"/>
+                <element inactive_on_update="false" label="Nonspouse Partner" sequence="6" value="nonspouse partner"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="Sex" max_length="40" name="u_sex" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Female" sequence="0" value="female"/>
+                <element inactive_on_update="false" label="Male" sequence="1" value="male"/>
+            </choice>
+        </element>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_19" type="simple_name_values"/>
+    </element>
+</database>

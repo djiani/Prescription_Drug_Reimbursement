@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Prescription_Drug</name>
+        <order/>
+        <roles>x_394636_prescript.prescription_drug_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 01:14:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f370044db3333001f55f26b689619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prescription_Drug</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+        <sys_update_name>sys_ui_application_9f370044db3333001f55f26b689619cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 01:14:23</sys_updated_on>
+    </sys_ui_application>
+</record_update>

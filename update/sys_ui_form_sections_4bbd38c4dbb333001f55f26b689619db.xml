@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4bbd38c4dbb333001f55f26b689619db" sys_domain="global" table="x_394636_prescript_prescription_drug" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 05:12:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47bd38c4dbb333001f55f26b689619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_394636_prescript_prescription_drug" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">4bbd38c4dbb333001f55f26b689619db</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 05:12:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 05:12:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03bd38c4dbb333001f55f26b689619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_394636_prescript_prescription_drug" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">4bbd38c4dbb333001f55f26b689619db</sys_ui_form>
+            <sys_ui_section caption="Patient/Subscriber Information" display_value="Patient/Subscriber Information" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">0fbd38c4dbb333001f55f26b68961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 05:12:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07bd38c4dbb333001f55f26b689619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_394636_prescript_prescription_drug" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">4bbd38c4dbb333001f55f26b689619db</sys_ui_form>
+            <sys_ui_section caption="Pharmacy Information" display_value="Pharmacy Information" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">c3bd38c4dbb333001f55f26b68961945</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fbd38c4dbb333001f55f26b689619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_394636_prescript_prescription_drug" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">4bbd38c4dbb333001f55f26b689619db</sys_ui_form>
+            <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">8fbd38c4dbb333001f55f26b689619da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_394636_prescript_prescription_drug</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 05:12:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bbd38c4dbb333001f55f26b689619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_394636_prescript_prescription_drug</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4bbd38c4dbb333001f55f26b689619db</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 05:12:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Patient View" name="Patient_View">47bd38c4dbb333001f55f26b68961941</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

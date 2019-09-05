@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_rel_member" table="x_394636_prescript_prescription_drug" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>self</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3bc90c0db7333001f55f26b689619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>self</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>spouse</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33bc90c0db7333001f55f26b689619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>spouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eligible Child</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbbc90c0db7333001f55f26b689619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>eligible child</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dependent Student</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fbc90c0db7333001f55f26b689619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>dependent student</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disabled Dependent</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bbc90c0db7333001f55f26b689619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>disabled dependent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dependent Parent</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3bc90c0db7333001f55f26b689619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>dependent parent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nonspouse Partner</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfbc90c0db7333001f55f26b689619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>nonspouse partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rel_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bbc90c0db7333001f55f26b689619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_rel_member</element>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-05 02:48:21</sys_created_on>
+            <sys_id>ebbc90c0db7333001f55f26b689619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_rel_member</sys_name>
+            <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+            <sys_update_name>sys_choice_x_394636_prescript_prescription_drug_u_rel_member</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-05 02:48:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
