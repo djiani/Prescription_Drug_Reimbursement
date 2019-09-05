@@ -4,13 +4,13 @@
             <element>sys_created_on</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>9681cd48dbb333001f55f26b68961959</sys_id>
+            <sys_created_on>2019-09-05 19:22:40</sys_created_on>
+            <sys_id>f050085cdb7b33001f55f26b6896194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
+            <sys_updated_on>2019-09-05 19:22:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,97 +18,41 @@
             <element>u_drug_1</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>1a81cd48dbb333001f55f26b68961959</sys_id>
+            <sys_created_on>2019-09-05 19:22:40</sys_created_on>
+            <sys_id>7c50085cdb7b33001f55f26b6896194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_drug_2</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>9a81cd48dbb333001f55f26b68961959</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_drug_3</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>1e81cd48dbb333001f55f26b68961959</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_drug_4</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>9e81cd48dbb333001f55f26b68961959</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_drug_5</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>1281cd48dbb333001f55f26b6896195a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
+            <sys_updated_on>2019-09-05 19:22:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_reimbursement_amount</element>
-            <position>6</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>9281cd48dbb333001f55f26b6896195a</sys_id>
+            <sys_created_on>2019-09-05 19:22:40</sys_created_on>
+            <sys_id>f050085cdb7b33001f55f26b6896194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
+            <sys_updated_on>2019-09-05 19:22:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>7</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:29:05</sys_created_on>
-            <sys_id>1681cd48dbb333001f55f26b6896195a</sys_id>
+            <sys_created_on>2019-09-05 19:22:40</sys_created_on>
+            <sys_id>7850085cdb7b33001f55f26b6896194c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reimbursement" display_value="Reimbursement" name="x_394636_prescript_prescription_drug" sys_domain="global" view="Default view">4bbc50c0db7333001f55f26b6896197c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:29:05</sys_updated_on>
+            <sys_updated_on>2019-09-05 19:22:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

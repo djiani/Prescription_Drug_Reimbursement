@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Prescription_Drug" max_length="40" name="x_394636_prescript_prescription_drug" type="collection">
+    <element extends="task" label="Prescription_Drug" max_length="40" name="x_394636_prescript_prescription_drug" sizeclass="5" type="collection">
         <element label="New Data Structure" max_length="800" name="u_data_structure_16" type="data_structure"/>
-        <element label="Drug 1" max_length="4000" name="u_drug_1" type="simple_name_values"/>
+        <element label="Drug 1" mandatory="true" max_length="4000" name="u_drug_1" type="simple_name_values"/>
         <element label="Drug 2" max_length="4000" name="u_drug_2" type="simple_name_values"/>
         <element label="Drug 3" max_length="4000" name="u_drug_3" type="simple_name_values"/>
         <element label="Drug 4" max_length="4000" name="u_drug_4" type="simple_name_values"/>
@@ -13,7 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Member ID" max_length="40" name="u_member_id" type="string"/>
         <element label="Member Name" max_length="32" name="u_member_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_member_phone_num" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_patient_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_patient_address" reference="cmn_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Patient Date of Birth" max_length="40" name="u_patient_date_birth" type="glide_date"/>
         <element label="Patient Name" max_length="32" name="u_patient_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Payment Method" max_length="40" name="u_payment_method" type="string">
