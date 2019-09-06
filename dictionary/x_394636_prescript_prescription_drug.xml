@@ -13,6 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Member ID" max_length="40" name="u_member_id" type="string"/>
         <element label="Member Name" max_length="32" name="u_member_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_member_phone_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_patient_address" reference="cmn_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Patient Date of Birth" max_length="40" name="u_patient_date_birth" type="glide_date"/>
         <element label="Patient Name" max_length="32" name="u_patient_name" reference="sys_user" type="reference"/>
@@ -27,6 +28,7 @@
         <element attributes="edge_encryption_enabled=true" label="Address of the Pharmacy" max_length="40" name="u_pharmacy_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" mandatory="true" max_length="20" name="u_reimbursement_amount" type="price"/>
+        <element label="Reimbursement Amount" mandatory="true" max_length="40" name="u_reim_amount" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="self" label="Relationship to Plan Member" max_length="40" name="u_rel_member" type="string">
             <choice>
                 <element inactive_on_update="false" label="self" sequence="0" value="self"/>
