@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_394636_prescript_priority">
+    <x_394636_prescript_priority action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>2</impact>
+        <number>PRI0001005</number>
+        <order>100</order>
+        <priority>3</priority>
+        <sys_class_name>x_394636_prescript_priority</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 01:50:07</sys_created_on>
+        <sys_id>5cf85514db7f33001f55f26b689619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+        <sys_update_name>x_394636_prescript_priority_5cf85514db7f33001f55f26b689619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 01:50:07</sys_updated_on>
+        <u_impact/>
+        <urgency>2</urgency>
+    </x_394636_prescript_priority>
+</record_update>
