@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="PDR_Task" max_length="40" name="x_394636_prescript_pdr_task" sizeclass="6" type="collection"/>
+</database>

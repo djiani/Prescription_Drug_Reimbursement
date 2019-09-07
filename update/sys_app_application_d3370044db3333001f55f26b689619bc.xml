@@ -7,14 +7,14 @@
         <hint/>
         <name>Prescription_Drug</name>
         <order>100</order>
-        <roles>x_394636_prescript.prescription_drug_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-05 01:14:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3370044db3333001f55f26b689619bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Prescription_Drug</sys_name>
         <sys_overrides/>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_app_application_d3370044db3333001f55f26b689619bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-05 01:14:23</sys_updated_on>
+        <sys_updated_on>2019-09-07 18:14:17</sys_updated_on>
         <title>Prescription_Drug</title>
         <view_name/>
     </sys_app_application>
