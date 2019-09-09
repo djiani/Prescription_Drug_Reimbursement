@@ -9,9 +9,9 @@
         <element label="Drug 5" max_length="4000" name="u_drug_5" type="simple_name_values"/>
         <element attributes="base_start=true" label="Expense" max_length="80" name="u_expense" type="table_name"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_18" type="glide_list"/>
-        <element label="Group No" max_length="40" name="u_group_no" type="integer"/>
+        <element label="Group No" mandatory="true" max_length="40" name="u_group_no" type="integer"/>
         <element label="Is this an on-site nursing home pharmacy?" max_length="40" name="u_is_nursing_home_phar" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Member ID" max_length="40" name="u_member_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Member ID" mandatory="true" max_length="40" name="u_member_id" type="string"/>
         <element label="Member Name" mandatory="true" max_length="32" name="u_member_name" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_member_phone_num" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
@@ -22,12 +22,13 @@
             <choice>
                 <element inactive_on_update="false" label="Credit Card" sequence="0" value="credit card"/>
                 <element inactive_on_update="false" label="Cash" sequence="1" value="cash"/>
-                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="check" sequence="2" value="check"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Name of Pharmacy" max_length="100" name="u_phamarcy_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address of the Pharmacy" max_length="40" name="u_pharmacy_address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Phone Number 2" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
         <element dependent="u_phone_number" dependent_on_field="u_phone_number" label="New Reference" max_length="32" name="u_reference_4" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" mandatory="true" max_length="20" name="u_reimbursement_amount" type="price"/>
         <element label="Reimbursement Amount" mandatory="true" max_length="40" name="u_reim_amount" type="float"/>
@@ -45,13 +46,24 @@
                 <element inactive="true" inactive_on_update="true" label="Nonspouse Partner" sequence="5" value="nonspouse partner"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="Sex" max_length="40" name="u_sex" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="male" label="Gender" max_length="40" name="u_sex" type="string">
             <choice>
                 <element inactive_on_update="false" label="Female" sequence="0" value="female"/>
                 <element inactive_on_update="false" label="Male" sequence="1" value="male"/>
             </choice>
         </element>
         <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_19" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status of Request" max_length="40" name="u_status_request" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Onhold" sequence="3" value="onhold"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Choice 1" label="Subcategory" max_length="40" name="u_subcategory" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
