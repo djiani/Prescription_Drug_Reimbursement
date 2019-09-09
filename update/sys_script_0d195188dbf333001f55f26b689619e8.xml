@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_394636_prescript_prescription_drug">u_rel_member=self^EQ<item endquery="false" field="u_rel_member" goto="false" newquery="false" operator="=" or="false" value="self"/>
+        <filter_condition table="x_394636_prescript_prescription_drug">u_rel_member=self^EQ<item display_value="self" endquery="false" field="u_rel_member" goto="false" newquery="false" operator="=" or="false" value="self"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>

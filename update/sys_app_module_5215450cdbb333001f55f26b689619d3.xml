@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="Prescription_Drug">d3370044db3333001f55f26b689619bc</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter table="x_394636_prescript_prescription_drug">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>

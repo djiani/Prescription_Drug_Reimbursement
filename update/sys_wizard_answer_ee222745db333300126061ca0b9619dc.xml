@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Priority</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Priority</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">e6a8ba00db333300126061ca0b961938</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+        <sys_id>ee222745db333300126061ca0b9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority</sys_name>
+        <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+        <sys_update_name>sys_wizard_answer_ee222745db333300126061ca0b9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+        <table/>
+        <target_url>x_394636_prescript_priority.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_394636_prescript.CountRecord</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <name>CountRecord</name>

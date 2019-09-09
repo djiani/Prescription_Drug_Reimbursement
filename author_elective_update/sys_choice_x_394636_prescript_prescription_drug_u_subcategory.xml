@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_subcategory" table="x_394636_prescript_prescription_drug" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spouse</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae222745db333300126061ca0b9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e222745db333300126061ca0b9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee222745db333300126061ca0b9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eligible Child</label>
+            <language>en</language>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22222745db333300126061ca0b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+            <value>eligible child</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_subcategory</element>
+            <name>x_394636_prescript_prescription_drug</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-08 19:44:49</sys_created_on>
+            <sys_id>26222745db333300126061ca0b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_subcategory</sys_name>
+            <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+            <sys_update_name>sys_choice_x_394636_prescript_prescription_drug_u_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-08 19:44:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</application>
+        <file_path/>
+        <instance_id>e1fc4583dbecfb008aea21c4059619cb</instance_id>
+        <instance_name>dev79094</instance_name>
+        <name>sys_choice_x_394636_prescript_prescription_drug_u_subcategory</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_subcategory" table="x_394636_prescript_prescription_drug" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_subcategory</element><hint/><inactive>false</inactive><label>Spouse</label><language>en</language><name>x_394636_prescript_prescription_drug</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ae222745db333300126061ca0b9619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 19:44:49</sys_updated_on><value>Choice 1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_subcategory</element><hint/><inactive>true</inactive><label>Choice 2</label><language>en</language><name>x_394636_prescript_prescription_drug</name><sequence>0</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6e222745db333300126061ca0b9619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 19:44:49</sys_updated_on><value>Choice 2</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_subcategory</element><hint/><inactive>true</inactive><label>Choice 3</label><language>en</language><name>x_394636_prescript_prescription_drug</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ee222745db333300126061ca0b9619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 19:44:49</sys_updated_on><value>Choice 3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_subcategory</element><hint/><inactive>false</inactive><label>Eligible Child</label><language>en</language><name>x_394636_prescript_prescription_drug</name><sequence>1</sequence><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 19:44:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>22222745db333300126061ca0b9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 19:44:49</sys_updated_on><value>eligible child</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_subcategory</element><name>x_394636_prescript_prescription_drug</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 19:44:49</sys_created_on><sys_id>26222745db333300126061ca0b9619d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_subcategory</sys_name><sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package><sys_policy/><sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope><sys_update_name>sys_choice_x_394636_prescript_prescription_drug_u_subcategory</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 19:44:49</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1047241010</payload_hash>
+        <record_name>Prescription_Drug.Subcategory</record_name>
+        <reverted_from/>
+        <source>83983600db333300126061ca0b961938</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2019-09-05 14:09:20</sys_created_on>
+        <sys_id>1032e745db333300126061ca0b9619b3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>16d01c216800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Choice list</type>
+        <update_guid>dc32e745b63333002a66f6215c89a8b2</update_guid>
+        <update_guid_history>dc32e745b63333002a66f6215c89a8b2:1047241010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 19:44:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>26222745db333300126061ca0b9619d6</sys_id>
+        <sys_metadata>26222745db333300126061ca0b9619d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_subcategory</sys_name>
+        <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
+        <sys_scope_delete display_value="">56ef893330594240aec930db518d5040</sys_scope_delete>
+        <sys_update_name>sys_choice_x_394636_prescript_prescription_drug_u_subcategory</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_394636_prescript_prescription_drug_u_subcategory">1032e745db333300126061ca0b9619b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 19:44:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

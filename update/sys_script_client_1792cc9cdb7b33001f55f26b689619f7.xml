@@ -15,7 +15,6 @@
       return;
    }
 	
-	//var oldObj = JSON.parse(newValue);
 	var totalAmount = 0;
 	var numObj = newValue.replace(/\$/g,'').trim();
 	var newObj = JSON.parse(numObj);
@@ -28,25 +27,13 @@
 		
 	});
 	
-	 if(totalAmount > 1000){
+	if(totalAmount > 1000){
         alert("Reimbursment Amount exceed the Max Limit of  $1000");
-        //g_form.getElement('u_reim_amount').css = "red";
-		 g_form.flash("u_reim_amount", "#FFFACD", 0);
+		g_form.flash("u_reim_amount", "#FFFACD", 0);
     }
 	g_form.setValue('u_reim_amount', totalAmount);
- 	
-// 	var totalAmount = g_form.getDecimalValue('u_reim_amount');
 	
-// 	for(var name in newObj){
-		
-// 		if(name == "" || name == undefined || name == null){
-// 			continue;
-// 		}
-		
-// 		totalAmount += parseFloat(newObj[name]);
-// // 		alert(totalAmount);	
-// 	}
-// 	g_form.setValue('u_reimbursement_amount',"3f065018dbbb33001f55f26b68961958", totalAmount);
+
 	
    
 }
@@ -64,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1792cc9cdb7b33001f55f26b689619f7</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>get total reimbursement</sys_name>
         <sys_overrides/>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
@@ -72,7 +59,7 @@
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_script_client_1792cc9cdb7b33001f55f26b689619f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-06 18:00:09</sys_updated_on>
+        <sys_updated_on>2019-09-09 03:35:40</sys_updated_on>
         <table>x_394636_prescript_prescription_drug</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

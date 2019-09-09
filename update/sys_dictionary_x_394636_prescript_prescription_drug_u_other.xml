@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-06 10:20:29</sys_created_on>
-        <sys_id>ecddc75cdb7373001f55f26b6896196d</sys_id>
+        <sys_id>56222745db333300126061ca0b9619ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Other</sys_name>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_dictionary_x_394636_prescript_prescription_drug_u_other</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-06 10:20:29</sys_updated_on>
+        <sys_updated_on>2019-09-08 19:44:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
