@@ -4,181 +4,111 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>dfbd78c4dbb333001f55f26b68961906</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>1b750c25db737300126061ca0b961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>53bd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>d3bd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>urgency</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>57bd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>impact</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>d7bd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>5bbd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>dbbd78c4dbb333001f55f26b68961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_group_no</element>
-            <position>7</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>5fbd78c4dbb333001f55f26b68961907</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>9f750c25db737300126061ca0b961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_member_id</element>
-            <position>8</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>dfbd78c4dbb333001f55f26b68961907</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>13750c25db737300126061ca0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_member_name</element>
-            <position>9</position>
+            <element>.split</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>53bd78c4dbb333001f55f26b68961908</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>93750c25db737300126061ca0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_member_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>17750c25db737300126061ca0b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>10</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>d3bd78c4dbb333001f55f26b68961908</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>97750c25db737300126061ca0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_member_phone_num</element>
-            <position>11</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>57bd78c4dbb333001f55f26b68961908</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>1b750c25db737300126061ca0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>12</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-05 05:12:30</sys_created_on>
-            <sys_id>d7bd78c4dbb333001f55f26b68961908</sys_id>
+            <sys_created_on>2019-09-09 16:57:38</sys_created_on>
+            <sys_id>9b750c25db737300126061ca0b961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_394636_prescript_prescription_drug" sys_domain="global" view="47bd38c4dbb333001f55f26b68961941">47bd38c4dbb333001f55f26b68961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-05 05:12:30</sys_updated_on>
+            <sys_updated_on>2019-09-09 16:57:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

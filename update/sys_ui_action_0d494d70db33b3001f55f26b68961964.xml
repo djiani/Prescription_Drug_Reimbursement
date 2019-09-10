@@ -2,7 +2,7 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>Report</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
@@ -14,19 +14,19 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
+        <form_style>primary</form_style>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
         <list_banner_button>true</list_banner_button>
-        <list_button>true</list_button>
+        <list_button>false</list_button>
         <list_choice>false</list_choice>
-        <list_context_menu>true</list_context_menu>
+        <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>weekly Report</name>
-        <onclick/>
+        <onclick>tesst()</onclick>
         <order>100</order>
         <script><![CDATA[	var weeklyTrend = new GlideAjax('WeeklyReportTrend');
 	weeklyTrend.addParam('sysparm_name', 'getWeeklyTrend');
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d494d70db33b3001f55f26b68961964</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>weekly Report</sys_name>
         <sys_overrides/>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_ui_action_0d494d70db33b3001f55f26b68961964</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-07 14:12:34</sys_updated_on>
+        <sys_updated_on>2019-09-10 05:43:58</sys_updated_on>
         <table>x_394636_prescript_prescription_drug</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

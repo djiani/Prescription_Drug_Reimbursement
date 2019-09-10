@@ -12,8 +12,8 @@ WeeklyReportTrend.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 	
 	getWeeklyTrend: function(){
 		var count = new GlideAggregate('x_394636_prescript_prescription_drug') ;
-		count.addQuery('opened_at', 'javascript:gs.daysAgo(2)');
 		count.addAggregate('COUNT');
+		count.addTrend('sys_created_on', 'Week');
 		count.query();
 		var trendCount = 0;
 		while(count.next()){
@@ -29,13 +29,13 @@ WeeklyReportTrend.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-06 10:55:30</sys_created_on>
         <sys_id>d3d31750dbb373001f55f26b689619ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>WeeklyReportTrend</sys_name>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_script_include_d3d31750dbb373001f55f26b689619ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-07 13:51:11</sys_updated_on>
+        <sys_updated_on>2019-09-10 03:11:08</sys_updated_on>
     </sys_script_include>
 </record_update>

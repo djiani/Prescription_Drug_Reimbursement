@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments>set priority to 1 , urgency = 1 and impact = 1 </comments>
-        <condition/>
+        <condition>gs.hasRoles('approval_admin, admin')</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -44,7 +44,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1738c158db3f33001f55f26b68961938</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Urgency</sys_name>
         <sys_overrides/>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
@@ -52,7 +52,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_ui_action_1738c158db3f33001f55f26b68961938</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-06 01:11:40</sys_updated_on>
+        <sys_updated_on>2019-09-10 04:51:34</sys_updated_on>
         <table>x_394636_prescript_prescription_drug</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

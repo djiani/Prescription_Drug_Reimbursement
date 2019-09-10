@@ -7,28 +7,30 @@
         <name>weekly Report</name>
         <record_for_rollback>false</record_for_rollback>
         <run_once>false</run_once>
-        <script><![CDATA[var count = new GlideAggregate('x_394636_prescript_prescription_drug') ;
-		count.addQuery('opened_at', 'WEEK');
-		count.addAggregate('COUNT');
-		count.query();
-		var trendCount = 0;
-		while(count.next()){
-			trendCount = count.getAggregate('COUNT');
-		}
-// gs.addInfoMessage('trendcount = '+ trendCount);
+        <script><![CDATA[var count = new GlideAggregate('x_394636_prescript_prescription_drug');
+count.addAggregate('COUNT');
+count.addQuery('opened_at', '>=', 'javascript:gs.daysAgo(1)');
+
+count.query();
+var trendCount = 0;
+while (count.next()) {
+    trendCount = count.getAggregate('COUNT');
+}
+//gslog('trendcount = ' + trendCount);
+// gs.addInfoMessage('trendcount = ' + trendCount);
 gs.info('trendcount = '+ trendCount);]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-07 17:50:18</sys_created_on>
         <sys_id>aefd39b4dbb3b3001f55f26b68961920</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>weekly Report</sys_name>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
         <sys_policy/>
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
         <sys_update_name>sys_script_fix_aefd39b4dbb3b3001f55f26b68961920</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-09 04:31:46</sys_updated_on>
+        <sys_updated_on>2019-09-10 05:39:27</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

@@ -30,7 +30,7 @@
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Samuel Djiani">6816f79cc0a8016401c5a33be04be441</created_by_user>
-        <custom_chart_size>true</custom_chart_size>
+        <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
         <decimal_precision>2</decimal_precision>
@@ -44,7 +44,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>opened_by.user_name</field>
         <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
-        <filter/>
+        <filter table="x_394636_prescript_prescription_drug">u_status_request=onhold<item display_value="Onhold" endquery="false" field="u_status_request" goto="false" newquery="false" operator="=" or="false" value="onhold"/>
+        </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -100,18 +101,18 @@
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-09 14:54:42</sys_created_on>
-        <sys_id>e259ab99dbff3300126061ca0b9619a5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>PDR_ Task_Approved</sys_name>
+        <sys_created_on>2019-09-10 07:05:28</sys_created_on>
+        <sys_id>3a878f2ddb3f7300126061ca0b9619ad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PDR_ Task_Hold2</sys_name>
         <sys_package display_value="Prescription_Drug_Reimbursement" source="x_394636_prescript">7fb68cc0db3333001f55f26b68961901</sys_package>
         <sys_policy/>
         <sys_scope display_value="Prescription_Drug_Reimbursement">7fb68cc0db3333001f55f26b68961901</sys_scope>
-        <sys_update_name>sys_report_e259ab99dbff3300126061ca0b9619a5</sys_update_name>
+        <sys_update_name>sys_report_3a878f2ddb3f7300126061ca0b9619ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-10 06:59:55</sys_updated_on>
+        <sys_updated_on>2019-09-10 07:13:01</sys_updated_on>
         <table>x_394636_prescript_prescription_drug</table>
-        <title>PDR_ Task_Approved</title>
+        <title>PDR_ Task_Hold2</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
